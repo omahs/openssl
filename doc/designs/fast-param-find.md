@@ -96,7 +96,7 @@ produce_param_handlers(
 /* End of generated code */
 ```
 
-THe top level attributes are:
+The top level attributes are:
 
 - "name" is the name the functions will derive from e.g. "kdf_scrypt" to this
   will be appended _[gs]et[_ctx]_params
