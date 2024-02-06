@@ -82,7 +82,7 @@ TLS record layer, one for the standard DTLS record layer, one for kernel TLS and
 one for QUIC-TLS.
 
 In the MVP the METHOD approach would be private. However, once it has
-stabilised, it would be straight forward to supply public functions to enable
+stabilised, it would be straightforward to supply public functions to enable
 end user applications to construct their own METHODs.
 
 This option is simpler to implement than the alternative of having a provider
@@ -503,7 +503,7 @@ struct ossl_record_method_st {
      * which is used in a subsequent call to |release_record|. The buffer must
      * remain available until release_record is called.
      *
-     * Internally the the OSSL_RECORD_METHOD the implementation may read/process
+     * Internally the OSSL_RECORD_METHOD the implementation may read/process
      * multiple records in one go and buffer them.
      */
     int (*read_record)(OSSL_RECORD_LAYER *rl, void **rechandle, int *rversion,
